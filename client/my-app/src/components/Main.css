@@ -1,0 +1,30 @@
+.Main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 1.5rem;
+}
+
+.blog-content{
+    height: 500px;
+    width: 300px;
+}
+
+.blog-content:hover{
+    border-color: #1098ad;
+}
+
+button{
+    border: none;
+    border-radius: 10%;
+    background-color: #2f9e44;
+    padding: 0.4em 0.8em;
+    cursor: pointer;
+    color: black;
+}
+
+button:hover{
+    background-color: #37b24d;
+}
